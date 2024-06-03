@@ -1,6 +1,6 @@
 # Project: Agriculture automation using VSD_suqadron_Mini board
 ## OBJECTIVE: 
-This Project On Agriculture Smart irrigation system like water pump controller features like, smart drip irrigation to automate the watering process based on soil moisture levels using the CH32V003F4U6 microcontroller. solenoid valve. 
+This Project to develop a Agriculture Smart irrigation system like water pump controller features and water valve controllers like solenoid valve based on soil moisture levels using the CH32V003F4U6 microcontroller. 
 
 ## 1. Components needed:  
 
