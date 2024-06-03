@@ -22,14 +22,14 @@ This Project On Agriculture Smart irrigation system like water pump controller f
 ## 2. Circuit Design  
 
 ### 2.1. Basic Connections:  
-Connect the soil moisture sensors to the analog input pins of the CH32V003F4U6.  
-Connect the relay module to the digital output pins of the microcontroller, which will control the water pump/valves.  
-Connect the power supply to all components ensuring proper voltage levels.  
+    - Connect the soil moisture sensors to the analog input pins of the CH32V003F4U6.  
+    - Connect the relay module to the digital output pins of the microcontroller, which will control the water pump/valves.  
+    - Connect the power supply to all components ensuring proper voltage levels.  
 
 ### 2.2. Optional Connections:  
-Connect the temperature and humidity sensor to the appropriate pins for advanced environmental monitoring.  
-Connect the water flow sensor to monitor water usage.  
-Connect the Wi-Fi module for remote access.  
+    - Connect the temperature and humidity sensor to the appropriate pins for advanced environmental monitoring.  
+    - Connect the water flow sensor to monitor water usage.  
+    - Connect the Wi-Fi module for remote access.  
 
 ## 3. Software Development  
 
