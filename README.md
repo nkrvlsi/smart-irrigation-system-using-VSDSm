@@ -41,7 +41,7 @@ This Project to develop a Agriculture Smart irrigation system like water pump co
 
 **Example Code Outline (C):**
 
-```
+```c
 #include <ch32v003.h>
 
 // Define pins for sensors and relay
