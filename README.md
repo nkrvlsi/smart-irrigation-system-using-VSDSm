@@ -5,8 +5,8 @@ This Project On Agriculture Smart irrigation system like water pump controller f
 ## 1. Components needed:  
 
 ### 1.1 Hardware:  
-**CH32V003F4U6 Microcontroller:**     The core of the system.  
-**Soil Moisture Sensors:**            To measure the soil moisture levels.  
+**1.1.1 CH32V003F4U6 Microcontroller:**     The core of the system.  
+**1.1.2 Soil Moisture Sensors:**            To measure the soil moisture levels.  
 **Water Pump/Valves:**                To control the water flow.  
 **Relay Module:**                     To interface the microcontroller with the water pump/valves.  
 **Temperature and Humidity Sensor:**  Optional, for more advanced control based on weather conditions.  
