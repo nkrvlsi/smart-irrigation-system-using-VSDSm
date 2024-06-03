@@ -4,9 +4,9 @@ This Project On Agriculture Smart irrigation system like water pump controller f
 
 ## 1. Components needed:  
 
-### 1.1 Hardware:  
-**1.1.1 CH32V003F4U6 Microcontroller:**     The core of the system.  
-**1.1.2 Soil Moisture Sensors:**            To measure the soil moisture levels.  
+### 1.1. Hardware:  
+**1.1.1. CH32V003F4U6 Microcontroller:**     The core of the system.  
+**1.1.2. Soil Moisture Sensors:**            To measure the soil moisture levels.  
 **Water Pump/Valves:**                To control the water flow.  
 **Relay Module:**                     To interface the microcontroller with the water pump/valves.  
 **Temperature and Humidity Sensor:**  Optional, for more advanced control based on weather conditions.  
@@ -14,32 +14,32 @@ This Project On Agriculture Smart irrigation system like water pump controller f
 **Water Flow Sensor:**                Optional, to measure the amount of water used.  
 **Wi-Fi Module:**                     Optional, for remote control and monitoring.  
 
-### 1.2 Software:  
+### 1.2. Software:  
 **Integrated Development Environment (IDE)**:     To program the microcontroller.  
 **Programming Language**:                         C or Assembly, depending on your preference and the IDE support.  
 **Mobile or Web Application**:                    Optional, for remote control and monitoring.  
 
 ## 2. Circuit Design  
 
-### 2.1 Basic Connections:  
+### 2.1. Basic Connections:  
 Connect the soil moisture sensors to the analog input pins of the CH32V003F4U6.  
 Connect the relay module to the digital output pins of the microcontroller, which will control the water pump/valves.  
 Connect the power supply to all components ensuring proper voltage levels.  
 
-### 2.2 Optional Connections:  
+### 2.2. Optional Connections:  
 Connect the temperature and humidity sensor to the appropriate pins for advanced environmental monitoring.  
 Connect the water flow sensor to monitor water usage.  
 Connect the Wi-Fi module for remote access.  
 
 ## 3. Software Development  
 
-### 3.1 Microcontroller Programming:   
+### 3.1. Microcontroller Programming:   
 **Initialize Sensors:**  Write code to initialize and read data from the soil moisture sensors.  
 **Control Logic:**       Implement the logic to turn the water pump on or off based on soil moisture levels.  
 **Relay Control:**       Write code to control the relay module for operating the pump/valves.  
 **Advanced Features:**   If using additional sensors (like temperature, humidity, or water flow), integrate their readings into the control logic.  
 
-Example Code Outline (C):
+**Example Code Outline (C):**
 
 ```
 #include <ch32v003.h>
